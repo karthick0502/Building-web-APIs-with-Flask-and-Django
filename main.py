@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, url_for
 from scrap import bbc_scrap, toi_scrap
+
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = '497b2582064cd81ddcfddd3fa18e5cd7'
