@@ -1,4 +1,4 @@
-# News Scraper Using Flask
+# News Scraper Using Flask and Django
 
 This project is a Flask-based web application designed to scrape news from two different websites and display the collected information on a single webpage. 
 It provides a convenient way to browse through headlines, images, and summaries of news articles from the BBC and Times of India websites.
@@ -28,3 +28,8 @@ It provides a convenient way to browse through headlines, images, and summaries 
 - **forms.py**: Module defining Flask-WTF forms for user registration and login (not implemented in this version).
 - **templates/**: Folder containing HTML templates for rendering web pages.
 - **static/**: Folder containing static files such as CSS stylesheets.
+
+## Django Implementation
+
+Additionally, this repository includes a zip file containing the Django implementation of the News Scraper project. The Django version offers an alternative approach to the original Flask implementation, providing users with a choice of web frameworks to explore.
+
